@@ -56,4 +56,8 @@ You can enhance it further based on your requirements and understanding
 
 # Screenshots
 
+Conversation with the bot: 
+
+![alt text](https://github.com/sheenam3/chatbot-restaurant/screenshot/bit1.png "Bot 1")
+
 
