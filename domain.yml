@@ -1,0 +1,34 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- menu
+responses:
+  utter_greet:
+  - text: Hey, I am bot! Welcome to XYZ Restaurant! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Hope to se you soon in the restaurant.Bye
+  utter_menu:
+  - text: Open this link for menu. https://drive.google.com/file/d/1reMGu0A6u6ccyM8EkMAWk2D7nV0cMZYs/view?usp=sharing
+  utter_iamabot:
+  - text: I am a bot, powered by Rabbia. Do you want to talk to a human?
+  utter_human:
+  - text: Please call on this number to talk to a human +886 987652428. Thank You.
+  utter_talk_to_human:
+  - text: Do you want to talk to a real person?
+  utter_help:
+  - text: How can I help you?
