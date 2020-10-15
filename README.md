@@ -42,14 +42,14 @@ You can enhance it further based on your requirements and understanding
   
   `rasa train`
   
-3 Install <b>rasa x</b>
+# Install <b>rasa x</b>
   Rasa X is a tool for Conversation-Driven Development (CDD), the process of listening to your users and using those insights to improve your AI assistant.
 
   On Local Mode:
   <code>pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple</code>
 
-  Execute it:
   `rasa x`
+  
   This will open up rasa x webpage on your browser, where you can interact with your bot and test it.
   
 
